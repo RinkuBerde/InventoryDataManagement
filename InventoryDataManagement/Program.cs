@@ -1,10 +1,14 @@
 ﻿namespace InventoryDataManagement
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Welcome to Inventory Data Management!!!");
+            Console.WriteLine(" Welcome to Inventory Data Management!!!");  
+            DataInventortyManagement management = new DataInventortyManagement();
+            management.GetData();
+
+            
         }
     }
 }
